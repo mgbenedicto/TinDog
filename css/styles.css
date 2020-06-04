@@ -23,18 +23,22 @@ p{
 /*************************************
 * TITLE
 ************************************/
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid{
-  padding-top: 3%
+  padding: 3% 15%;
+  text-align: left;
 }
 
 .container-fluid{
   padding: 7% 15%;
+}
+
+/* Sections*/
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
 }
 
 .big-heading{
@@ -88,7 +92,7 @@ p{
 * FEATURES
 ************************************/
 #features{
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
 }
 
@@ -114,7 +118,7 @@ p{
 ************************************/
 #testimonials{
   background-color: #ef8172;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .testimonial-image{
@@ -159,9 +163,9 @@ p{
 /*************************************
 * Call to action  section
 ************************************/
-#cta{
-  background-color: #ff4c68;
-}
+/* #cta{
+   background-color: #ff4c68;
+} */
 
 /* .cta-text{
   font-family: 'Montserrat', sans-serif;
@@ -176,7 +180,7 @@ p{
 * Footer section
 ************************************/
 #footer{
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .social-icons{
